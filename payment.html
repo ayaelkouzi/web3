@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Payment</title>
+		<style>
+		<link rel="stylesheet" type="text/css" href="web.css">
+			
+		</style>
+	</head>
+	<body>
+<center>
+		<h2 style="color:white;background-color:#333;">Payment for ORA Beauty!</h2>
+		</br>
+		<!-- Form to submit payment -->
+		<form action="paymentConfirm.php" method="post">
+            <table>
+            <tr>
+                <td>First name: </td>
+                <td><input type="text" name="firstName" value="" placeholder="Jane" autofocus required></td>
+                </tr>
+            <tr>
+                <td>Last name:</td> 
+                <td><input type="text" name="lastName" value="" placeholder="Doe" required></td>
+                </tr>            
+            <tr>
+                <td>Address:</td> 
+                <td><input type="text" name="address" value="" required></td>
+                </tr>
+            
+            <tr>
+                <td>City:</td> 
+                <td><input type="text" name="city" value="" required></td>
+                </tr>
+            
+            <tr>
+                <td>State:</td> 
+                <td><input type=text name="state" required></td>
+                </tr>
+            
+            <tr>
+                <td>Zip Code:</td> 
+                <td><input type="text" name="zip" required></td>
+				</tr>
+                
+            <tr>
+                <td>Phone:</td> 
+                <td><input type = "text" placeholder = "(###) ###-####" name="phone"/></td>
+                </tr>
+                
+            <tr>
+                <td>E-mail Address:</td> 
+                <td><input type="email" name="email" value="" placeholder="name@domain.com" required></td>
+                </tr>
+                       
+            <tr>
+                <td>Payment Method:</td> 
+                <td><select name="card"><datalist id="payment" name="card" required>
+                    <option value="MS">MasterCard</option>
+                    <option value="VISA">Visa</option>
+                    <option value="AMEX">American Express</option>
+                    <option value ="DISC">Discover</option>
+                    <option value="DEBIT">Debit</option>
+                    <option value="CHASE">Chase</option>
+                    </datalist></select></td>
+                </tr>
+                
+            <tr>
+                <td>Card Number:</td> 
+                <td><input type="text" name="cardnumber" value="" required><br></td>
+				</tr>
+             <tr>
+			 </tr>
+            <tr>
+                <td><input type = "submit"> <input type ="reset" ></td> 
+                </tr>
+				</table>
+            
+        </form>
+		</center>
+		
+		<a href="ORA.html"style="float:right"> Main Page </a>
+	</body>
+</html>
