@@ -47,11 +47,7 @@
             <input type="submit" value="Add Item"></br></br>
         </form>
 		</center>
-		<div class="topnav">
-		<div class="topnav-right">
-		<a href="cart-view.php?action=cart_view">View Cart</a>
-		</div>
-	</div>
+		
     </main>
 </body>
 </html>
